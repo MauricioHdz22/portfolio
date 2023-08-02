@@ -21,7 +21,7 @@ body{
 /**NAVBAR**/
 
 .nav{
-    background: #FBFBFF;
+    background: #f8f8f8;
     height: 4rem;
     display: flex;
     align-items: center;
@@ -29,6 +29,7 @@ body{
 
 .nav a{
     margin-right: 10px;
+    margin-left: 2rem;
     text-decoration: none;
     color: #101935;
     font-family: 'RobotoMonoBold';
@@ -47,10 +48,10 @@ body{
         background-color: #FFFFFF;
     }
     50% {
-        background-color: rgb(253, 253, 253);
+        background-color: #fafafa;
     }
     100% {
-        background-color: #FFFFFF;
+        background-color: #f8f8f8;
     }
 }
 
@@ -87,6 +88,22 @@ body{
 .imgprofile{
     display: flex;
     margin: auto auto auto auto;
+}
+
+.btns a{
+    transition: 0.5s;
+    text-decoration: none;
+    background: #9F89DD;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    border-radius: 6px;
+    font-family: Helvetica;
+}
+
+.btns a:hover{
+    transition: 0.5s;
+    background: #b29cf0;
+    box-shadow: 1px 0px 3px rgb(99, 99, 99);
 }
 
 .contimg{
@@ -205,3 +222,43 @@ body{
     margin-left: 1rem;
 }
 
+
+.contact{
+    width: 100%;
+    background: #F5F5FF;
+    height: 15rem;
+}
+
+.contact h1{
+    margin: auto auto auto auto;
+    font-family: Helvetica;
+    margin-left: 2rem;
+    padding-top: 10px;
+    font-size: 30px;
+    color:#9F89DD;
+}
+
+.contact p{
+    font-family: Helvetica;
+    margin-left: 2rem;
+    font-style: bold;
+    font-size: 16px;
+    
+}
+
+.contact a{
+    margin-left: 2rem;
+    transition: 0.5s;
+    text-decoration: none;
+    background: #9F89DD;
+    color: white;
+    padding: 8px 16px 8px 16px;
+    border-radius: 6px;
+    font-family: Helvetica;
+}
+
+.contact a:hover{
+    transition: 0.5s;
+    background: #b29cf0;
+    box-shadow: 1px 0px 3px rgb(99, 99, 99);
+}
